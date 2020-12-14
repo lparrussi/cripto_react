@@ -67,7 +67,7 @@ function App() {
 
             // guardar cotizacion
             guardarResultado(resultado.data.DISPLAY[criptomoneda][moneda] );
-          }, 3000);
+          }, 1000);
 
           
       }

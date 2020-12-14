@@ -31,8 +31,8 @@ const Formulario = ({guardarMoneda,  guardarCriptomoneda }) => {
     const [ error, guardarError] = useState(false);
 
     const MONEDAS = [
-        { codigo: 'USD', nombre: 'Dolar de Estados Unidos' },
-        { codigo: 'MXN', nombre: 'Peso Mexicano' },
+        { codigo: 'USD', nombre: 'Dolar Estadounidense' },
+        { codigo: 'ARS', nombre: 'Peso Argentino' },
         { codigo: 'EUR', nombre: 'Euro' },
         { codigo: 'GBP', nombre: 'Libra Esterlina' }
     ];
